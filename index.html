@@ -1,1 +1,42 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Formulario de Login</title>
+        <style>
+            form {text-align: center;}
+            p {margin: 10px 0;}
+            body {background: beige;font-family: Arial, sans-serif; font-size: 16px;}
+            h1 {color: #333;font-size: 24px;}
+            button {background-color: #4CAF50; /* Verde */color: white;padding: 10px 20px;border: none;border-radius: 4px;cursor: pointer;}
 
+        </style>
+    </head>
+    <body>
+
+        <h1>Login</h1>
+        <form action="actionPessoa.php" method="post"></form>                                                                                                                                                           
+        <p>   
+            <label for="Usuariologin"> Usuario:</label>
+            <input name="Usuariologin" type="text" size="30"> <br><br>
+        </p>    
+        <p>
+            <label for="SenhaLogin">Senha:</label>
+            <input name="SenhaLogin" type="password"><br><br>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" name="manterlogado" value="sim">
+                <label for="login">Manter logado </label> <br>
+            </label> <br>   
+        </p>
+
+        <p> <button type="submit">Login</button> </p><br>
+        <p> <a href="#URL">Ainda nao tem conta?</p><br>
+        <p> <a href="#URL">Esqueceu a Senha?</p><br>
+
+        </form>     
+    </body>
+
+</html>
